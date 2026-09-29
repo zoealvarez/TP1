@@ -1,0 +1,307 @@
+.pagina {
+  min-width: 1200px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f3ed;
+  color: #1b1b1b;
+}
+
+.contenedor {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.barra-navegacion {
+  padding: 12px 0;
+  background-color: #f7f3ed;
+}
+
+.barra-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-imagen {
+  width: 90px;
+  height: 62px;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu-enlace {
+  color: #1b1b1b;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.boton-cabecera {
+  padding: 10px 15px;
+  border: 2px solid #1b1b1b;
+  color: #1b1b1b;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero {
+  height: 430px;
+  background-color: #11131b;
+  background-image: url('assets/tattoo-hero.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.hero-contenido {
+  padding-top: 90px;
+}
+
+.hero-titulo {
+  margin: 0;
+  font-size: 72px;
+}
+
+.punto-azul {
+  color: #5267e7;
+}
+
+.hero-subtitulo {
+  margin: 0 0 18px;
+  font-size: 32px;
+}
+
+.palabra-azul {
+  color: #6c7df2;
+}
+
+.hero-texto {
+  width: 450px;
+  margin: 0 0 25px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.boton-azul {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 0;
+  background-color: #3046d3;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.seccion-proyecto {
+  padding: 60px 0;
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+.etiqueta-azul {
+  margin: 0 0 15px;
+  color: #6c7df2;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.encabezado-proyecto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.titulo-claro {
+  margin: 0;
+  font-size: 40px;
+}
+
+.texto-intro {
+  width: 420px;
+  margin: 0;
+  color: #dddddd;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.lista-actividades {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tarjeta-actividad {
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f7f3ed;
+  color: #1b1b1b;
+}
+
+.imagen-actividad {
+  width: 330px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.texto-actividad {
+  width: 700px;
+  padding-top: 18px;
+}
+
+.numero-actividad {
+  margin: 0;
+  color: #3046d3;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.titulo-actividad {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.parrafo-actividad {
+  margin: 0;
+  color: #514c48;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.seccion-evento {
+  padding: 60px 0;
+}
+
+.tarjeta-evento {
+  display: flex;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.informacion-evento {
+  width: 550px;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.aviso-evento {
+  margin: 0 0 18px;
+  color: #bfc7ff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.titulo-evento {
+  margin: 0 0 15px;
+  font-size: 42px;
+}
+
+.descripcion-evento {
+  margin: 0 0 15px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.fecha-evento {
+  margin: 0 0 20px;
+  color: #bfc7ff;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.boton-claro {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #ffffff;
+  font-size: 12px;
+}
+
+.imagen-evento {
+  width: 550px;
+  height: 355px;
+  object-fit: cover;
+}
+
+.nota-evento {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+
+.seccion-preguntas {
+  padding: 60px 0;
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+.preguntas-contenido {
+  display: flex;
+  gap: 40px;
+}
+
+.preguntas-encabezado {
+  width: 320px;
+}
+
+.texto-preguntas {
+  color: #dddddd;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.preguntas-lista {
+  width: 740px;
+}
+
+.pregunta {
+  padding: 12px 0;
+  border-bottom: 1px solid #555555;
+}
+
+.pregunta-titulo {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.pregunta-texto {
+  margin: 0;
+  color: #dddddd;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pie-pagina {
+  padding: 20px 0;
+  background-color: #e9e4dc;
+}
+
+.pie-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-pie {
+  width: 75px;
+  height: 52px;
+}
+
+.texto-pie {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.enlace-pie {
+  color: #1b1b1b;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
